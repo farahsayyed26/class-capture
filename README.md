@@ -33,9 +33,29 @@ The project uses a decoupled architecture where a React dashboard sends data via
    
 2 Clone the Repository
 * code: git clone https://github.com/your-username/class-capture.git
- cd class-capture
+
+   cd class-capture
 
 3 Backend Setup(FastAPI)
 * Open the project folder in VS Code.
-* Open a new terminal in VS Code and navigate to the backend directory
-" cd backend"
+* Open a new terminal in VS Code and navigate to the backend directory: (cd backend)
+* Create a virtual environment: (python -m venv venv)
+* Activate the virtual environment:
+
+  (Windows: venv\Scripts\activate)
+
+  (Mac/Linux: source venv/bin/activate)
+* Install dependencies: (pip install -r requirements.txt)
+* Start the backend server: (uvicorn main:app --reload)
+
+4 Frontend Setup (React)
+* Open a second terminal in VS Code (Keep the backend running).
+* Navigate to the frontend directory: (cd my-app)
+* Install the necessary packages: (npm install)
+* Start the React development server: (npm run dev)
+
+5 Usage
+* Once both servers are running, open your browser to http://localhost:3000.
+* Drag and drop a whiteboard photo into the "Drop Zone".
+* Wait for the Gemini AI to process the notes and generate your quiz.
+  

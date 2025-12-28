@@ -4,8 +4,9 @@ A professional tool for capturing, organizing, and managing classroom lectures a
 
 Class-Capture is an intelligent EdTech platform designed to bridge the gap between static classroom whiteboard photos and active learning using Google Gemini AI. By leveraging advanced vision models, the system converts messy, unorganized lecture snapshots into structured digital notes and actionable summaries. Beyond simple digitization, it ensures material mastery by automatically generating interactive practice quizzes and flashcards directly from the captured content. All data is securely hosted on a centralized Firebase cloud workspace, transforming buried gallery images into a searchable and accessible academic knowledge base.
 ## Table of Content 
-* [About the Project](#-about-the-project)
+* [Project Description](#project-description)
 * [The Problem Statement](#-the-problem-statement)
+* [Our Solution](#our-solution)
 * [Key Features](#-key-features)
 * [Technology Stack](#-technology-stack)
 * [System Architecture](#-system-architecture)
@@ -13,6 +14,8 @@ Class-Capture is an intelligent EdTech platform designed to bridge the gap betwe
 * [Getting Started](#-getting-started)
 ## Problem Statement 
 Modern students capture thousands of whiteboard photos, yet these valuable insights often die in the smartphone gallery, buried under personal media.
+## Our Solution
+Class-Capture is an AI-powered workspace that transforms passive classroom photography into active learning assets. By integrating high-performance OCR with Generative AI, we bridge the gap between a messy smartphone gallery and a structured digital library.
 ## Key Features
 * Intelligent Capture: High-fidelity OCR specifically tuned for classroom environments and diverse handwriting styles.
 * AI Summarization: Instant extraction of key concepts using Gemini 1.5 Flash.
